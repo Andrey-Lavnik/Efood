@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <header>
+        <div class="container navigation">
+            <a href="#" class="food">
+                <div class="colortext">E</div>Food
+            </a>
+            <nav>
+                <a href="#" class="home">О нас</a>
+                <a href="#">Помощь</a>
+                <a href="#">Акции</a>
+                <a href="#">Контакты</a>
+                <a href="#"><img src="Search.svg" alt="search"></a>
+                <button class="corsina"><img src="images/Buy.png" alt=""></button>
+                <button id="myBtn" class="register">Sign up</button>
+            </nav>
+        </div>
+        <div id="myModal" class="modal none">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <form action="">
+                    <h1 title="Форма регистрации на сайте">Регистрация</h1>
+                    <div class="group">
+                        <label for="">Имя пользователя:</label>
+                        <input  type="text">
+                    </div>
+                    <div class="group">
+                        <label for="">Пароль:</label>
+                        <input  type="password">
+                    </div>
+                    <div class="group">
+                        <label for="">Пароль ещё раз:</label>
+                        <input  type="password">
+                    </div>
+                    <div class="group">
+                        <label for="">Адрес электронной почты</label>
+                        <input type="email">
+                    </div>
+                    <div class="group">
+                        <center><button class="registration">Регистрация</button></center>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal_basket none">
+            <div class="closes_modal">&#10006</div>
+        <div class="container1s pizzy">
+            
+        <div class="item_box">
+            <h3 class="item_title">Пицца карбонара</h3>
+            <img class="carbonara" src="images/carbonara.png" alt="">
+            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+            <button class="add_item" data-id="7">Добавить в корзину</button>
+          </div>
+          <div class="item_box">
+            <h3 class="item_title">Пицца маргарита</h3>
+            <img class="carbonara" src="images/margarita.png" alt="">
+            <p>Цена: <span class="item_price">21.89</span> рублей</p>
+            <button class="add_item" data-id="2">Добавить в корзину</button>
+          </div>
+            <div class="item_box">
+            <h3 class="item_title">Пицца Мексиканская</h3>
+            <img class="carbonara" src="images/meksikanskaya.png" alt="">
+            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+            <button class="add_item" data-id="5">Добавить в корзину</button>
+          </div>
+          <div class="item_box">
+            <h3 class="item_title">Пицца Мюнхенская</h3>
+            <img class="carbonara" src="images/myunkhenskaya.png" alt="">
+            <p>Цена: <span class="item_price">34.39</span> рублей</p>
+            <button class="add_item" data-id="5">Добавить в корзину</button>
+            <button id="checkout">Оформить заказ</button>
+            <button id="clear_cart">Очистить корзину</button>
+            <div id="cart_content"></div>
+            
+          </div>
+          
+        </div>
+
+       
+    
+        </div>
+        
+    </header>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
