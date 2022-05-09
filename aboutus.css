@@ -25,7 +25,7 @@ body{
 .home{
     color: #FF6838;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 1px#000000;
+    -webkit-text-stroke: 1px #000000;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -149,3 +149,80 @@ nav a{
 .close:hover{
     cursor: pointer;
 }
+
+
+
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #F2994A 0%, #F2C94C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+  }
+
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.title_text{
+    color:#F2994A ;
+    background: linear-gradient(90deg, #F2994A 0%, #F2C94C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-size: 40px;
+    color: #363853;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right{
+    width: 50%;
+}
+
+.left{
+    width: 50%;
+    
+
+}
+
+.right img{
+    width: 500px;
+    height: 500px;
+}
+
+.black{
+    width: 300px;
+    border-bottom: 5px solid #F2994A;
+}
+
+.ekzo::after{
+    background: #F2994A;
+    content: "";
+    display: block;
+    max-width: 476px;
+    max-height: 476px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 85%;
+    z-index: 1;
+}
+
+
+
