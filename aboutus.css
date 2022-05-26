@@ -153,7 +153,7 @@ nav a{
 
 
 
-h1 {
+.aboutus {
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
@@ -186,6 +186,11 @@ p{
 
 .flex-wrapper{
     display: flex;
+<<<<<<< HEAD
+=======
+    margin: auto;
+    max-width: 1140px;
+>>>>>>> 9aa5927334b3f34a9d47c9e5445101b31ba02849
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -228,6 +233,7 @@ p{
     z-index: 1;
 }
 
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -354,5 +360,38 @@ p{
     }
  }
 
+=======
+.burger{
+    width: 200px;
+    height:200px;
+}
+
+h2{
+    color: #363853;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+}
+
+.we{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+    color: #363853;
+}
+
+span{
+    color:#FF6838;
+}
+
+.small{
+    width:40px;
+    height: 40px;
+}
+>>>>>>> 9aa5927334b3f34a9d47c9e5445101b31ba02849
 
 
