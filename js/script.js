@@ -102,8 +102,7 @@ closer.forEach((item,id)=>{
   })
 })
 
-const closevhod = document.querySelector(".closes_vhod")
-
+const closevhod = document.querySelector(".closes_vhod");
 closevhod.addEventListener('click',()=>{
   vhodmod.style.display = "none";
 })
@@ -260,6 +259,15 @@ document.querySelector('.cont_form_login').style.display = "none";
 },500);  
   
   }
-  
+
+
+const menubtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+const content = document.querySelector('.content');
+menubtn.onclick = function (){
+  menu.classList.toggle('menu_active')
+  content.classList.toggle('content_active')
+}
+
 
 
