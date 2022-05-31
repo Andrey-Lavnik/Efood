@@ -261,13 +261,7 @@ document.querySelector('.cont_form_login').style.display = "none";
   }
 
 
-const menubtn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
-const content = document.querySelector('.content');
-menubtn.onclick = function (){
-  menu.classList.toggle('menu_active')
-  content.classList.toggle('content_active')
-}
+
 
 
 
