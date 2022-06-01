@@ -261,18 +261,27 @@ section {
     position: relative;
     overflow-x: hidden;
   }
+
+  .burger{
+    width: 200px;
+    height: 200px;
+  }
+
   .menu {
     position: fixed;
     left: 0;top: 0;
     z-index: 99;
     width: 30%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     transition: 0.5s;
     transform: translateX(-100%);
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+    background: linear-gradient(to top left, powderblue, pink);
   }
   .menu_active {
     transform: translateX(0%);
@@ -299,10 +308,7 @@ section {
   }
 
 
-.burger{
-    width: 200px;
-    height:200px;
-}
+
 
 h2{
     color: #363853;
@@ -384,6 +390,25 @@ span{
   .menu-btn2{
       position: fixed;
   }
+
+  @media(max-width:768px){
+    .three{
+      width: 65%;
+    }
+    .left,.right{
+      width: 90%;
+    }
+    header{
+      display: none;
+    }
+    #commer{
+      width:300px;
+      height: 300px;
+    }
+  }
+
+ 
+
 
 
 
