@@ -5,3 +5,5 @@ menubtn.onclick = function (){
   menu.classList.toggle('menu_active')
   content.classList.toggle('content_active')
 }
+
+

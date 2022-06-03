@@ -1,50 +1,97 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>JavaScript SimpleAdaptiveSlider - Слайдер для сайта на чистом JavaScript [Example 01]</title>
-  <!-- Подключаем CSS слайдера -->
-  <link rel="stylesheet" href="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.css">
-  <!-- Подключаем JS слайдера -->
-  <script defer src="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // инициализация слайдера
-      var slider = new SimpleAdaptiveSlider('.slider', {
-        loop: false,
-        autoplay: false,
-        interval: 5000,
-        swipe: true,
-      });
-    });
-  </script>
- 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="support.css">
 </head>
-
 <body>
-  <!-- Разметка слайдера -->
-  <div class="slider">
-    <div class="slider__wrapper">
-      <div class="slider__items">
-        <div class="slider__item">
-          <div style="height: 250px; background: #3f51b5;"></div>
+    <div class="wrapper">
+        <div class="menu">
+          <nav class="menu-list">
+            <a href="#" class="food">
+                <div class="colortext">SRTE</div>
+            </a>
+            <a href="aboutus.html" class="home">О нас</a>
+            <a href="#">Помощь</a>
+            <a href="#">Акции</a>
+            <a href="#"  id="restaurant">Рестораны</a>
+            <a href="#"><img src="Search.svg" alt="search"></a>
+            <a class="corsina"><img src="images/Buy.png" alt=""></a>
+            <a href="registration.html" id="myBtn" class="register">Регистрация</a>
+          </nav>
+          
         </div>
-        <div class="slider__item">
-          <div style="height: 250px; background: #607d8b;"></div>
         </div>
-        <div class="slider__item">
-          <div style="height: 250px; background: #f44336;"></div>
+          <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn2" for="menu-toggle">
+              <span></span>
+            </label>
         </div>
-        <div class="slider__item">
-          <div style="height: 250px; background: #4caf50;"></div>
-        </div>
+    <h1>Рестораны</h1>
+    <div class="sim-slider">
+        <ul class="sim-slider-list">
+          <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+          <li class=" small sim-slider-element"><img class="rest" src="images/burherking.jpg" alt="0"></li>
+          <li class=" small sim-slider-element"><img class="rest" src="images/McDonalds.jpg" alt="1"></li>
+          <li class=" small sim-slider-element"><img class="rest" src="images/kfcrestaurant2.jpg" alt="2"></li>
+          <li class=" small sim-slider-element"><img class="rest" src="images/sushihouse.jpg" alt="3"></li>
+          <li class=" small sim-slider-element"><img class="rest" src="images/wine&pinsa.jpg" alt="4"></li>
+          <li class=" small sim-slider-element"><img class="rest" src="images/melograno.jpg" alt="5"></li>
+        </ul>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
       </div>
+      <div class="lox">
+        <div class="w">
+            <h2 class="bum">
+                <p class="bomg"> S</p>RTE
+            </h2>
+            <p>Никита, Беларусь</p>
+            <p>0943833399</p>
+            <p>support@SRTE.com</p>
+            <img src="images/facebook.png" alt="facebook">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram.png" alt="instagram">
+            <img src="images/pinterest.png" alt="pinterest">
+        </div>
+        <div class="c">
+            <h4>Сервис</h4>
+            <p>Как он работает</p>
+            <p>Достввка</p>
+            <p>Продукты</p>
+            <p>Меню</p>
+        </div>
+        <div class="mon">
+            <h4>Компания</h4>
+            <p>О нас</p>
+            <p>Новости</p>
+            <p>Наши партнёры</p>
+            <p>Новые пользователи</p>
+        </div>
+        <div class="bob">
+            <h4 class="qwerty">Поддержка</h4>
+            <a class="axaxa" href="contact.html"></a>
+            <p>Обратная связь</p>
+            <a class="si" href="contact.html">Напишите нам</a>
+            <p>Условия пользования</p>
+        </div>
+        <div class="mob">
+            <h4>Ресурсы</h4>
+            <p>Скачать приложение</p>
+            <p>Блог</p>
+            <p>Что нового</p>
+            <p>Карта сайта</p>
+        </div>
     </div>
-    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
-    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
-  </div>
-</body>
+</main>
 
+
+      <script src="js/support.js"></script>
+</body>
 </html>
