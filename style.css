@@ -29,7 +29,12 @@ body{
 }
 
 
-
+a{
+  text-decoration: none;
+  color: #363853;
+  font-weight: normal;
+  font-size: 18px;
+}
 
 .navigation{
     display: flex;
@@ -43,12 +48,7 @@ body{
     justify-content: space-between;
     align-items:center;
 }
-.nav a{
-    text-decoration: none;
-    color: #363853;
-    font-weight: normal;
-    font-size: 18px;
-}
+
 
 .register{
     background: #FF7A50;
@@ -422,6 +422,8 @@ color:yellow;
 cursor: pointer;
 }
 
+
+
 .re{
     background: #FF7A50;
     box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
@@ -430,6 +432,8 @@ cursor: pointer;
     color: #FFFFFF;
     border: none;
 }
+
+
 
 .pizza{
     overflow: hidden;
@@ -653,20 +657,7 @@ cursor: pointer;
   padding: 15px 0px;
   }
   
-  .btn_sign_up { 
-  background-color: #f44336;
-    border: none;
-    padding: 10px;
-  width: 200px;
-  border-radius:3px;
-  box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
-    color: #fff;
-  margin-top: 10px;
-  cursor: pointer;
-  }
-  .cont_forms_active_sign_up {
-  z-index: 2;  
-  }
+
   
   
   @-webkit-keyframes animar_fondo {
@@ -790,6 +781,21 @@ cursor: pointer;
       margin: 10px;
   margin-left: 30px;
   }
+  
+  .btn_sign_up { 
+    background-color: #f44336;
+      border: none;
+      padding: 10px;
+    width: 200px;
+    border-radius:3px;
+    box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+      color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+    .cont_forms_active_sign_up {
+    z-index: 2;  
+    }
 
 
 @media(max-width:768px){

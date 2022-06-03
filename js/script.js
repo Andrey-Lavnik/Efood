@@ -166,20 +166,20 @@ const modal = document.querySelector(".modal");
 
 // Получить кнопку, которая открывает модальный
 const btn = document.querySelectorAll(".register");
-btn.forEach((item,id)=>{
-  item.addEventListener('click',()=>{
+// btn.forEach((item,id)=>{
+//   item.addEventListener('click',()=>{
     
-    modal.style.display = "block";
-  })
-})
+//     modal.style.display = "block";
+//   })
+// })
 
-const vhodmod = document.querySelector(".modal_vhod")
+// const vhodmod = document.querySelector(".modal_vhod")
 
 const vhod = document.querySelector(".vhod");
 
-vhod.addEventListener('click',()=>{
-    vhodmod.style.display = "block"
-})
+// vhod.addEventListener('click',()=>{
+//     vhodmod.style.display = "block"
+// })
 
 
 // Получить элемент <span>, который закрывает модальный
