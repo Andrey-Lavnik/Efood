@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <div class="container">
+    <div class="wrapper">
+    <div class="menu">
+      <nav class="menu-list">
+        <a href="#" class="food">
+            <div class="colortext">SRTE</div>
+        </a>
+        <a href="index.html">Главная</a>
+        <a href="aboutus.html" class="home">О нас</a>
+        <a href="support.html"  id="restaurant">Рестораны</a>
+        <a href="catalog.html"><img src="Search.svg" alt="search"></a>
+        <a class="corsina"><img src="images/Buy.png" alt=""></a>
+        <a href="registration.html" id="myBtn" class="register">Регистрация</a>
+      </nav>
+      
+    </div>
+    </div>
+      <div class="burger-menu">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn2" for="menu-toggle">
+          <span></span>
+        </label>
+    </div>
+    <header>
+        <!-- <div class="container navigation">
+            <a href="#" class="food">
+                <div class="colortext">E</div>Food
+            </a>
+            <nav>
+                <a href="#" class="home">О нас</a>
+                <a href="#">Помощь</a>
+                <a href="#">Акции</a>
+                <a href="#">Контакты</a>
+                <a href="#"><img src="Search.svg" alt="search"></a>
+                <a href="#" class="corsina"><img src="images/Buy.png" alt=""></a>
+                <a href="registration.html" id="myBtn" class="register">Регистрация</a>
+            </nav>
+        </div> -->
+        <div id="myModal" class="modal none">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <form action="">
+                    <h1 title="Форма регистрации на сайте">Регистрация</h1>
+                    <div class="group">
+                        <label for="">Имя пользователя:</label>
+                        <input  type="text">
+                    </div>
+                    <div class="group">
+                        <label for="">Пароль:</label>
+                        <input  type="password">
+                    </div>
+                    <div class="group">
+                        <label for="">Пароль ещё раз:</label>
+                        <input  type="password">
+                    </div>
+                    <div class="group">
+                        <label for="">Адрес электронной почты</label>
+                        <input type="email">
+                    </div>
+                    <div class="group">
+                        <center><button class="registration">Регистрация</button></center>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal_basket none">
+            <div class="closes_modal">&#10006</div>
+        <div class="container1s pizzy">
+            
+        <div class="item_box">
+            <h3 class="item_title">Пицца карбонара</h3>
+            <img class="carbonara" src="images/carbonara.png" alt="">
+            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+            <button class="add_item" data-id="7">Добавить в корзину</button>
+          </div>
+          <div class="item_box">
+            <h3 class="item_title">Пицца маргарита</h3>
+            <img class="carbonara" src="images/margarita.png" alt="">
+            <p>Цена: <span class="item_price">21.89</span> рублей</p>
+            <button class="add_item" data-id="2">Добавить в корзину</button>
+          </div>
+            <div class="item_box">
+            <h3 class="item_title">Пицца Мексиканская</h3>
+            <img class="carbonara" src="images/meksikanskaya.png" alt="">
+            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+            <button class="add_item" data-id="5">Добавить в корзину</button>
+          </div>
+          <div class="item_box">
+            <h3 class="item_title">Пицца Мюнхенская</h3>
+            <img class="carbonara" src="images/myunkhenskaya.png" alt="">
+            <p>Цена: <span class="item_price">34.39</span> рублей</p>
+            <button class="add_item" data-id="5">Добавить в корзину</button>
+            <button id="checkout">Оформить заказ</button>
+            <button id="clear_cart">Очистить корзину</button>
+            <div id="cart_content"></div>
+            
+          </div>
+          
+        </div>
+
+       
+    
+        </div>
+        
+    </header>
+<main> <h1 class="aboutus">О нас</h1></main>
+
+       <p class="title"> <span class="title_text"> Наши преимущества:</span></p>
+    <div class="flex-wrapper">
+        <div class="left">
+            <p class="black">Быстрая доставка</p>
+            <p>Если наш доставщик не успеет за 45 минут, мы вернём вам деньги</p>
+        </div>
+        <div class="right">
+            <img class="ekzo" src="images/delivery.png" alt="">
+        </div>
+    </div>
+    <h1 class="aboutus">Каждый выберет что-то на свой вкус</h1>
+    <div class="flex-wrapper">
+    <div class="three">
+    <img  src="images/berger.png" class="burger" alt="">
+    <p>Бургер</p>
+    </div>
+    <div class="three">
+        <img  src="images/sushi.png" class="burger" alt="">
+        <p>Суши</p>
+        </div>
+    <div class="three">
+        <img  src="images/pizza.png" class="burger" alt="">
+        <p>Пицца</p>
+        </div>
+    </div>
+    <h1 class="aboutus">Сотрудничество</h1>
+    <div class="flex-wrapper">
+    <img id="commer" src="images/26356472.qbnn47n68z.W665.jpg" alt="">
+    
+    </div>
+    <div class="flex-wrapper">
+        <div class="left">
+            <img src="images/deli.png" alt="">
+        </div>
+        <div class="right">
+            <h2> <span> Оставайтесь</span> дома, мы доставим вам   <span> вкусную еду</span></h2>
+            <p class="we">Мы обеспечиваем вкусную еду и сверхбыструю доставку на дом. Воспользуйтесь нашими услугами прямо сейчас и получите скидки до 50%.</p>
+            <div class="little">
+            <img class="small" src="images/Timer icon.png" alt="">
+            <p>Быстрая доставка за 45 минут</p>
+            </div>
+            <div class="little">
+            <img class="small"   src="images/delt.png" alt="">
+            <p>300+ доставщиков</p>
+            </div>
+            <div class="little">
+            <img class="small" src="images/Resturent icon.png" alt="">
+            <p>100+ ресторанов и кафе</p>
+            </div>
+        </div>
+    </div>
+</div>
+  
+        
+        
+    <script src="js/about.js"></script>
+</body>
+</html>

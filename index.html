@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chapcka">
+        <div class="chapcka__body">
+            <a href="#" class="food">
+                <div class="colortext">SRTE</div>
+            </a>
+            <div class="chapcka__burger">
+                <span></span>
+            </div>
+            <nav class="chapcka__menu">
+                <div class="spisok">
+                    <ul class="chapcka__list">
+                        <li>
+                            <a href="aboutus.html" class="chapcka__link">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#" class="chapcka__link">Помощь</a>
+                        </li>
+                        <li>
+                            <a href="#timer" class="chapcka__link">Акции</a>
+                        </li>
+                        <li>
+                            <a href="support.html" class="chapcka__link">Рестораны</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="chapcka__link"><img src="Search.svg" alt="search"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="chapcka__link"><button class="corsina"><img src="images/Buy.png"
+                                        alt=""></button></a>
+                        </li>
+                        <li>
+                            <a href="registration.html" class="chapcka__link"><button class="register">Регистрация</button></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+</div>
+    <div class="content">
+        <header>
+            <div class="container navigation">
+                <a href="#" class="food">
+                    <div class="colortext">S</div>RTE
+                </a>
+
+                <div class="nav">
+                    <a href="aboutus.html" id="home">О нас</a>
+                     <a href="support.html" class="dont">Рестораны</a>
+                     <a href="#timer">Акции</a>
+                     <a href="#">Помощь</a>
+                    <a href="catalog.html" class="dont"><img src="Search.svg" alt="search"></a>
+                    <button class="corsina"><img src="images/Buy.png" alt=""></button>
+                    <div class="vhody">
+                        <a href="registration.html" id="myBtn" class="register ">Регистрация</a>
+                        <a href="registration.html" class="re vhod">Вход</a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <main>
+            <div class="container flex-wrapper">
+                <div class="left">
+                    <h1>Супер быстрый <div class="colortext2">сервис
+                        </div> доставка еды</h1>
+                    <p class="provide">Мы обеспечиваем сверхбыструю доставку. Воспользуйтесь нашими услугами прямо
+                        сейчас и получите скидки до 50%</p>
+                    <a class="explore" href="catalog.html">Изучить меню</a>
+                    <a class="download" href="app.html">Скачать приложение</a>
+                </div>
+                <div class="right"><img class="scooter" src="images/Scooter Guy.png" alt="">
+                   
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="closes_modal">&#10006</div>
+
+                    <form action="" class="regis">
+                        <h1 title="Форма регистрации на сайте">Регистрация</h1>
+                        <div class="group">
+                            <label for="">Имя пользователя:</label>
+                            <input type="text">
+                        </div>
+                        <div class="group">
+                            <label for="">Пароль:</label>
+                            <input type="password">
+                        </div>
+                        <div class="group">
+                            <label for="">Пароль ещё раз:</label>
+                            <input type="password">
+                        </div>
+                        <div class="group">
+                            <label for="">Адрес электронной почты</label>
+                            <input type="email">
+                        </div>
+                        <div class="group">
+                            <center><button class="registration">Регистрация</button></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="#myModal" class="modal_vhod">
+                <div class="modal-content">
+                    <div class="closes_vhod">&#10006</div>
+
+                    <form action="" class="regis regis_vhod">
+                        <h1 title="Форма регистрации на сайте">Вход</h1>
+                        <div class="group">
+                            <label for="">Имя пользователя:</label>
+                            <input type="text">
+                        </div>
+                        <div class="group">
+                            <label for="">Пароль:</label>
+                            <input type="password">
+                        </div>
+                        <div class="group">
+                            <center><button class="registration">Войти</button></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div class="modal_basket none">
+                <div class="closes_modal">&#10006</div>
+                <div class="container1s pizzy">
+                    <div class="pizzybox">
+                        <div class="item_box">
+                            <h3 class="item_title">Пицца карбонара</h3>
+                            <img class="carbonara" src="images/carbonara.png" alt="">
+                            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+                            <button class="add_item" data-id="7">Добавить в корзину</button>
+                        </div>
+                        <div class="item_box">
+                            <h3 class="item_title">Пицца маргарита</h3>
+                            <img class="carbonara" src="images/margarita.png" alt="">
+                            <p>Цена: <span class="item_price">21.89</span> рублей</p>
+                            <button class="add_item" data-id="2">Добавить в корзину</button>
+                        </div>
+                        <div class="item_box">
+                            <h3 class="item_title">Пицца Мексиканская</h3>
+                            <img class="carbonara" src="images/meksikanskaya.png" alt="">
+                            <p>Цена: <span class="item_price">28.89</span> рублей</p>
+                            <button class="add_item" data-id="5">Добавить в корзину</button>
+                        </div>
+                        <div class="item_box">
+                            <h3 class="item_title">Пицца Мюнхенская</h3>
+                            <img class="carbonara" src="images/myunkhenskaya.png" alt="">
+                            <p>Цена: <span class="item_price">34.39</span> рублей</p>
+                            <button class="add_item" data-id="5">Добавить в корзину</button>
+                            <button id="checkout">Оформить заказ</button>
+                            <button id="clear_cart">Очистить корзину</button>
+                            <div id="cart_content"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </main>
+
+        <footer>
+            <div id="timer" class="promotion__timer">
+                <div class="title">Осталось до конца акции 2 бигмака по цене одного в Burger King:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">12</span>
+                        дней
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours">20</span>
+                        часов
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes">56</span>
+                        минут
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds">20</span>
+                        секунд
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="lox">
+        <div class="w">
+            <h2 class="bum">
+                <p class="bomg"> S</p>RTE
+            </h2>
+            <p>Никита, Беларусь</p>
+            <p>0943833399</p>
+            <p>support@SRTE.com</p>
+            <img src="images/facebook.png" alt="facebook">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram.png" alt="instagram">
+            <img src="images/pinterest.png" alt="pinterest">
+        </div>
+        <div class="c">
+            <h4>Сервис</h4>
+            <p>Как он работает</p>
+            <p>Достввка</p>
+            <p>Продукты</p>
+            <p>Меню</p>
+        </div>
+        <div class="mon">
+            <h4>Компания</h4>
+            <p>О нас</p>
+            <p>Новости</p>
+            <p>Наши партнёры</p>
+            <p>Новые пользователи</p>
+        </div>
+        <div class="bob">
+            <h4 class="qwerty">Поддержка</h4>
+            <a class="axaxa" href="contact.html"></a>
+            <p>Обратная связь</p>
+            <a class="si" href="contact.html">Напишите нам</a>
+            <p>Условия пользования</p>
+        </div>
+        <div class="mob">
+            <h4>Ресурсы</h4>
+            <p>Скачать приложение</p>
+            <p>Блог</p>
+            <p>Что нового</p>
+            <p>Карта сайта</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
